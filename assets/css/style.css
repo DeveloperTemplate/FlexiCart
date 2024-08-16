@@ -1374,3 +1374,18 @@ box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 .owl-carousel .owl-item img { 
   width: 100% !important;
 }
+
+
+.product-main-img img {
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .product-main-img img {
+    max-width: 300px;
+  }
+}
